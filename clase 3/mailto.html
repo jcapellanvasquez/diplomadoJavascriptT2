@@ -4,22 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio MailTO</title>
 </head>
 <body>
     <form action="mailto:jcapellan@itla.do.edu">
-        <div>
-            <label for="nombre">
-                Nombre
-            </label>
-            <input
-            type="text" 
-            name="nombre"
-            id="nombre"
-            title="Ingrese su nombre"
-            placeholder="Ingrese su nombre"
-            >
-        </div>
         <div>
             <label for="email">
                 E-mail
@@ -33,25 +21,24 @@
                 >
     
         </div>
+        <div>
+            <label for="subject">
+                Subject
+            </label>
+            <input
+            type="text" 
+            name="subject"
+            id="subject"
+            >
+        </div>
          
         <div>
-            <label for="paises">
-                Pais
-            </label>   
-            <select name="paises" id="paises">
-                <option value="1">RD</option>
-                <option value="2">PR</option>
-                <option value="3">MEX</option>
-            </select>
-    
-        </div>
-        <div>
-            <label for="mensaje">
+            <label for="body">
                 Mensaje
             </label>
             <textarea 
-            name="mensaje" 
-            id="mensaje" 
+            name="body" 
+            id="body" 
             rows="10"></textarea>
         </div>
 
