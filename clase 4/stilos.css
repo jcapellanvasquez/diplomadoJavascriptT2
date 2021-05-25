@@ -1,0 +1,17 @@
+.titulo {
+    color: #C1666B;
+    font-size: 34px;
+}
+
+.titulo-principal {
+    font-size: 44px;
+}
+
+#contenedor {
+    background-color: #E4DFDA;
+    padding: 8px;
+}
+
+.fondo {
+    background-color: #48A9A6;
+}
