@@ -1,0 +1,52 @@
+
+
+body {
+    background-color: #FCF7F8;
+}
+
+header {
+
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav > ul > li {
+    width: 300px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    width: 800px;
+    height: 600px;
+    background-color: teal;
+    border-color: tomato;
+    border-width: 2px;
+    border-style: solid;
+    margin-right: 8px;
+}
+
+.seccion1 {
+    background-color: thistle;
+}
+
+.seccion3 {
+    background-color: #A31621;
+}
+
+footer {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
