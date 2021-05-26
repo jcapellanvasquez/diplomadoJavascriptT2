@@ -1,12 +1,27 @@
+/* Seleccionar todos los elementos */
+* {
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+/* Selector de tipo clase */
 .titulo {
     color: #C1666B;
     font-size: 34px;
+    margin-top: 13px;
+    margin-bottom: 23px;
 }
 
 .titulo-principal {
     font-size: 44px;
 }
 
+/* Selector de clase cuando contiene un elemento */
+.titulo-principal > small {
+    color: teal;
+}
+
+/* Selector de tipo identificador unico */
 #contenedor {
     background-color: #E4DFDA;
     padding: 8px;
@@ -14,4 +29,27 @@
 
 .fondo {
     background-color: #48A9A6;
+}
+
+/* Selector para etiquetas especificas */
+p {
+    font-size: 23px;
+}
+
+
+/* Selector para grupos de etiquetas */
+p,  li {
+    letter-spacing: 2px;
+}
+
+/* Selector para elementos dentro de otro elemento */
+li > a {
+    padding: 8px;
+}
+
+
+ /* Selector del primer hermano de tipo p de un elemento div */
+div + p {
+    width: 300px;
+    height: 300px;
 }
