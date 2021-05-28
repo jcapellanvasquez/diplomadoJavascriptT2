@@ -23,17 +23,23 @@ nav > ul > li {
     width: 300px;
 }
 
-main {
+.contenedor {
     display: flex;
+    width: 100%;
+    height: 900px;
+    flex-direction: row;
+    background: cornsilk;
+    justify-content: center;
+    align-items: center;
 }
 
-.seccion {
-    width: 800px;
-    height: 600px;
-    border-color: tomato;
-    border-width: 2px;
-    border-style: solid;
-    margin-right: 8px;
+.hijo {
+    width: 200px;
+    max-height: 100px;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+
 }
 
 .fondo-verde {    
