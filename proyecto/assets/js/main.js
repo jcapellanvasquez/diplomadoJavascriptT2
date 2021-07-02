@@ -48,7 +48,6 @@ window.addEventListener('load', event => {
     }
 
 
-
     for(let index = 0; misGastos.length > index; index = index + 1) {
         let gasto = misGastos[index]
         renderizarGasto(gasto)
@@ -61,5 +60,7 @@ window.addEventListener('load', event => {
     // console.table(misGastos)
     // console.log(misGastos.length)
     // console.log(misGastos[1])
+
+    console.log(localStorage.getItem("nombre"))
 
 })
