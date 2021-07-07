@@ -16,3 +16,9 @@ function obtenerListadoGastos() {
 function actulizarLista(listadoGastos) {
     localStorage.setItem("listado_gastos", JSON.stringify(listadoGastos))
 }
+
+function setInvalid(input, mensaje) {
+    input.focus()
+    input.classList.add("is-invalid");
+    input.nextElementSibling.innerHTML = mensaje;
+}

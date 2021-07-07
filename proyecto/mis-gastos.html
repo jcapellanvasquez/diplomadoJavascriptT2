@@ -62,6 +62,7 @@
                                             placeholder="Razon del gasto"
                                             class="form-control"
                                             ></textarea>
+                                            <div class="invalid-feedback"></div>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
@@ -75,6 +76,7 @@
                                               <option value="Otros">Otros...</option>
                                             </select>
                                           </div>
+                                          <div class="invalid-feedback"></div>
                                     </div>
                                     <div class="row mb-3">
                                         <label for="fecha" 
@@ -87,13 +89,19 @@
                                                 id="fecha"
                                                 class="form-control"
                                             >
-                                            
+                                            <div class="invalid-feedback"></div>
                                         </div>
                                     </div>
                                     <div class="row mb-3">
                                         <label for="monto" class="form-label">Monto</label>
                                         <div class="col-3 col-sm-3">
-                                          <input id="monto" name="monto" type="number" step="any" class="form-control" placeholder="0.00" aria-label="City">
+                                          <input id="monto" 
+                                          name="monto" 
+                                          type="number" 
+                                          step="any" 
+                                          class="form-control" 
+                                          placeholder="0.00">
+                                          <div class="invalid-feedback"></div>
                                         </div>
                                         <div class="col-sm">
                                             <div class="form-check form-check-inline">
