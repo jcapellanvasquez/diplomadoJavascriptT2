@@ -1,4 +1,8 @@
+
+
 window.addEventListener('load', event => {
+
+
     const formularioGastos = document.getElementById("formulario-gastos")
 
     formularioGastos.addEventListener('submit', event => {
@@ -24,6 +28,9 @@ window.addEventListener('load', event => {
         };
 
         guardarGastos(gasto)
+        event.target.reset()
 
     })
+
+
 })
