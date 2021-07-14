@@ -15,9 +15,12 @@ window.addEventListener('load', event => {
                 event.target.elements['descripcion'],
                 "Este campo es obligatorio"
             )
-
             return;
         }
+
+        // Remove el mensaje de error
+        removeInvalid(event.target.elements['descripcion'])
+
 
         let gasto = {
             descripcion: event.target.elements['descripcion'].value,
@@ -31,6 +34,14 @@ window.addEventListener('load', event => {
         event.target.reset()
 
     })
+
+    document.getElementById("descripcion")
+            .addEventListener('keydown', event => {
+                // Remove el mensaje de error
+                removeInvalid(event.target)
+
+                setValid(event.target, 'Validacion correcta')
+            })
 
 
 })
